@@ -1,0 +1,1239 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
+<head>
+<title>Connect NY                                                                    </title>
+<base target="_self"/>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+<script type="text/JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1" ><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
+</head>
+<body bgcolor="#FFFFFF" >
+<!-- begin toplogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Oct 2010 -->
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
+
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div class="topLogo">
+
+<div class="topLinks">
+<ul id="topLinksList">
+<!--<li><a href="/patroninfo" tabindex="120">Login</a></li>-->
+<li><a href="/help" tabindex="115">Help</a></li>
+<!--<li><a href="#" onClick="window.print();" tabindex="110"><span class="buttonTopLinks"><img src="/screens/ico_printer.gif" alt=""><span class="buttonTopLinksText">Print</span></span></a></li>-->
+<li><a href="/search/" tabindex="105">New Search</a></li>
+</ul>
+</div>
+
+<div class="topLogoSmall">
+<a href="/" tabindex="10"><img src="/screens/CNYlogowithtext.gif" alt="Catalog Home Page" style='height:175px; width:450px;'></a>
+</div>
+
+</div><!--topLogo-->
+
+
+<div class="topMyLibrary">
+<div id="topMyLibraryHeader"><h1>My Library</h1></div>
+
+<ul id="toplogoMoreNav">
+<!-- Toplogo alt links. -->
+<!--<li><a href="/acquire">Suggest a purchase</a></li>
+<li><a href="/suggest">Leave Comments</a></li>
+-->
+
+<!-- Dropdown menus -->
+	<li id="first">
+		<div><a href="http://encore.connectny.info/iii/encore/" target="_blank">Search Encore</a></div>
+		<!--<ul>
+            <li><a href="/patroninfo">My Account</a></li>
+            <!--<li><a href="/selfreg">Create an account</a></li> 
+            <li><a href="/libinfo">About the library</a></li>
+            <li><a href="/acquire">Suggest a purchase</a></li>
+            <li><a href="/suggest">Comments</a></li>
+		</ul>-->
+	</li>
+
+	<li>
+		<div><a href="/help">Help Topics</a></div>
+		<ul>
+			<li><a href="/help#searching">Searching</a></li>
+			<li><a href="/help#searchtips">Advanced Keyword Search Tips</a></li>
+			<li><a href="/help#prefsearch">Saving your searches</a></li>
+			<li><a href="/help#renewals">Renewals</a></li>
+		</ul>
+	</li>
+
+	<li id="last">
+		<div><a href="http://connectny.org/" target="_blank">ConnectNY</a></div>
+		<ul>
+           <!-- <li><a href="<encore IP/iii/encore>">Search Encore</a></li>
+            <li><a href="/iii/calendar/month">Program Calendar</a></li>
+            <li><a href="/ftlist">Featured Lists</a></li>
+            <li><a href="/rpro">Research Pro</a></li>
+            <li><a href="/search/y">Find e-resources</a></li>
+            <li><a href="/illb">Interlibrary Loan</a></li>
+		</ul>
+	</li> -->
+<!-- End dropdown menus -->    
+    
+</ul>
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+//Enable optional dropdown menu for additional navigation options.
+if (document.all&&document.getElementById) {
+	navRoot = document.getElementById("toplogoMoreNav");
+	for (i=0; i<navRoot.childNodes.length; i++) {
+		node = navRoot.childNodes[i];
+		if (node.nodeName=="LI") {
+			node.onmouseover=function() {
+				this.className+=" over";
+			}
+			node.onmouseout=function() {
+				this.className=this.className.replace(" over", "");
+			}
+		}
+	}
+}
+
+//--><!]]></script>
+
+</div><!--myLibrary-->
+<div class="topNavClear"></div>
+
+<div class="searchNav">
+<script language="JavaScript"> 
+<!--
+function GotoURL() { 
+//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
+window.location.assign(document.getElementById("specializedSearch").value);
+return false;
+} 
+// -->
+</script>
+<div id="searchNavMenu">
+<select name="specializedSearch" id="specializedSearch" onchange="GotoURL ();">
+<option selected="selected" value=" ">(More Searches)</option>
+<option value="/search/X">Advanced Keyword</option>
+<option value="/search/t">Title</option>
+<option value="/search/a">Author</option>
+<option value="/search/d">Subject</option>
+<option value="/search/h">Form/Genre</option>
+<option value="/search/l">LC Call Number</option>
+<option value="/search/c">Dewey Call Number</option>
+<option value="/search/g">Government Document Number</option>
+<option value="/search/i">ISSN/ISBN</option>
+<option value="/search/j">Music/Report Number</option>
+<option value="/search/o">OCLC Record Number</option>
+<!--<option value="/search/q">Author and Title</option>
+<option value="/search/p">Instructor</option>
+<option value="/search/r">Course</option> -->
+</select>
+<input type="image" src="/screens/ico_go.gif" class="searchNavBut" value="Go" onclick="GotoURL();" >
+</div>
+
+</div><!--searchNav-->
+<div class="clear"></div>
+<div class="pageContent"><!-- content container -->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
+
+<div align="center" class="navigationRow">
+<form>
+<a onclick="setRequestEventCookie()" href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CE/2browse/indexsort=-"><span class="button"><img src="/screens/ico_browse_ext.gif" alt=""><span class="buttonText">Extended Display</span></span></a>
+<a href="/search~S0?/i44009635/i44009635/1,0,0,B/limit:relimit"><span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Limit/Sort Search</span></span></a>
+<select name=HISTORY onChange="onSelectChange(this, '~S0')"><option value="">(Search History)</option>
+<OPTION VALUE="i44009635">ISBN/ISSN: 44009635
+<OPTION VALUE="i044009635">ISBN/ISSN: 044009635
+<OPTION VALUE="i0440096359">ISBN/ISSN: 0440096359
+<OPTION VALUE="i0201014734">ISBN/ISSN: 0201014734
+<OPTION VALUE="i0809426781">ISBN/ISSN: 0809426781
+<OPTION VALUE="i080942679X">ISBN/ISSN: 080942679X
+<option value="+/search~S0/i?44009635&clear_history">(Clear Search History)</option>
+<option value="+/">(End Search Session)</option>
+</select>
+<noscript>
+<h2>Search history function requires JavaScript.</h2>
+</noscript>
+</form>
+</div>
+
+<!-- BEGIN BROWSE SCREEN TABLE -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="browseScreen">
+<!-- BEGIN SEARCH WIDGET -->
+<div align="center">
+<tr align="center" valign="middle">
+<td valign="middle" colspan="2">
+<div  class="browseSearchtool"><form target="_self" action="/search~S0/" method='get'>
+      <label for="searchtype" style="display:none;">Search Type1</label><select name="searchtype" id="searchtype">
+        <option value="X"> KEYWORD</option>
+        <option value="t"> TITLE</option>
+        <option value="a"> AUTHOR</option>
+        <option value="d"> LC SUBJECT</option>
+        <option value="h"> FORM/GENRE</option>
+        <option value="l"> LC CALL NO</option>
+        <option value="c"> CALL NO</option>
+        <option value="g"> GOVT DOC NO</option>
+        <option value="i" selected="selected"> ISBN/ISSN</option>
+        <option value="o"> OCLC NO</option>
+        <option value="j"> MUSIC/REPORT NO</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" onchange='return searchtoolSubmitAction()'maxlength="75" value="44009635" />
+      &nbsp;
+      <input type="hidden" name="SORT" value="D" /><input type="hidden" name="extended" value="0" />      <input type="submit" name="SUBMIT" value="Search" onclick='return searchtoolSubmitAction();' />
+<div>
+      <input type="checkbox" name="availlim" value="1"  /> <span class="availLimMessage">Limit search to available items</span><br/>
+</div>
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value="i44009635" />
+</div>
+</form>
+<div></div></div>
+
+</td>
+</tr>
+</div>
+<!-- END SEARCH WIDGET -->
+
+<tr  class="msg"><td align="center" colspan="4">No matches found; nearby ISBNS/ISSNS are:</td></tr>
+
+<!-- BEGIN BROWSE PAGER -->
+<tr  class="browsePager"><td align="center"  class="browsePager" colspan="4">
+<!-- begin unbounded page widgit -->
+Result Page&nbsp;&nbsp;&nbsp;<a href="/search~S0?/i44009635/i44009635/-53,0,0,B/browse">Prev</a>
+<a href="/search~S0?/i44009635/i44009635/47,0,0,B/browse">Next</a>
+<!-- end unbounded page widgit -->
+</td>
+</tr>
+<!-- END BROWSE PAGER -->
+
+<!-- BEGIN BROWSE SCREEN LEFT CELL: BROWSELIST/BRIEFCIT AREA -->
+<tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="browseList">
+<tr align="CENTER" valign="MIDDLE">
+<td colspan="4" class="browseSaveJump">
+<form method="POST" action="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/browse/indexsort=-" name="export_form" id="export_form" >
+<input type="hidden" name="jumpref" value="i44009635">
+<input type="hidden" id="save_func" name="save_func" value=""/>
+<a href="#" onclick="process_save(0);" style="text-decoration:none">
+<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add Marked to Bag</span></span></a>
+<span name='save_page_btn1' id='save_page_btn1' style='visibility: visible' ><a href="#" onclick="process_save(1);" style="text-decoration:none">
+<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add All On Page</span></span></a>
+</span>
+<span name='mylist_btn1' id='mylist_btn1' style='visibility: visible' ><a href="#" onclick="save_to_mylist();">
+<span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add Marked to My Lists</span></span></a>
+</span>
+</td></tr>
+
+
+</td>
+</tr>
+<tr  class="browseHeader">
+<td align="center" valign="bottom" class="browseHeaderMark">
+Mark
+</td>
+
+<td  class="browseHeaderData">
+&nbsp;
+</td>
+<td align="left" valign="bottom" class="browseHeaderYear">
+Year
+</td>
+
+<td align="center" valign="bottom" class="browseHeaderEntries">
+Entries
+</td>
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i44008010075|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_-3'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i44008010075&1%2C1%2C/indexsort=-">44008010075</a>  : Tolstoy, Leo,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1963
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4400843633|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_-2'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4400843633&1%2C1%2C/indexsort=-">4400843633</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1992
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i44008562225|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_-1'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i44008562225&1%2C1%2C/indexsort=-">44008562225</a>  : Postman, Neil.&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1969
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i44009236265|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_0'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i44009236265&1%2C1%2C/indexsort=-">44009236265</a>  : Klinkowitz, Jerome.&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1973
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="yourEntryWouldBeHere">
+</tr>
+<tr  class="yourEntryWouldBeHere">
+<td align="CENTER" colspan="4" class="yourEntryWouldBeHereData">
+<b>Your entry <font color="red">44009635</font> would be here</b>
+
+</td>
+</tr>
+<tr  class="browseEntry">
+</tr>
+<tr  class="browseEntry">
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4403250718|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_1'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4403250718&1%2C1%2C/indexsort=-">4403250718</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2003
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4404016379|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_2'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4404016379&1%2C1%2C/indexsort=-">4404016379</a>  : Murasaki Shikibu,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1989
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4408505099|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_3'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4408505099&1%2C1%2C/indexsort=-">4408505099</a>  : Kanō, Ryōichi,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2009
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4408535524|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_4'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4408535524&1%2C1%2C/indexsort=-">4408535524</a>  : Shibata, Yoshiki,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2009
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i440861050x|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_5'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i440861050x&1%2C1%2C/indexsort=-">440861050x</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1986
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4412012050|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_6'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4412012050&1%2C1%2C/indexsort=-">4412012050</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2002
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4414414385|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_7'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4414414385&1%2C1%2C/indexsort=-">4414414385</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2010
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4415006299|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_8'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4415006299&1%2C1%2C/indexsort=-">4415006299</a>  : Kudō, Norio&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1998
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4415008429|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_9'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4415008429&1%2C1%2C/indexsort=-">4415008429</a>  : Yoda, Norimoto&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1999
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4415014127|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_10'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4415014127&1%2C1%2C/indexsort=-">4415014127</a>  : Yoda, Norimoto,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2000
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4415014739|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_11'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4415014739&1%2C1%2C/indexsort=-">4415014739</a>  : Kobayashi, Satoru&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2000
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4415020739|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_12'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4415020739&1%2C1%2C/indexsort=-">4415020739</a>  : Hane, Naoki&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2003
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4415044247|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_13'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4415044247&1%2C1%2C/indexsort=-">4415044247</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1993
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4415045383|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_14'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4415045383&1%2C1%2C/indexsort=-">4415045383</a>  : Cho, Ch'i-hun,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1983
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416386559|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_15'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416386559&1%2C1%2C/indexsort=-">4416386559</a>  : Modegi, Masaaki,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1986
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416691017v4|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_16'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416691017v4&1%2C1%2C/indexsort=-">4416691017v4</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1991
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416691025v1|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_17'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416691025v1&1%2C1%2C/indexsort=-">4416691025v1</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1991
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416691033v2|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_18'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416691033v2&1%2C1%2C/indexsort=-">4416691033v2</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1991
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416691041v3|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_19'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416691041v3&1%2C1%2C/indexsort=-">4416691041v3</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1991
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416703066|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_20'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416703066&1%2C1%2C/indexsort=-">4416703066</a>  : Segoe, Kensaku,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2003
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i441670321x|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_21'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i441670321x&1%2C1%2C/indexsort=-">441670321x</a>  : Segoe, Kensaku,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+2003
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416782063|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_22'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416782063&1%2C1%2C/indexsort=-">4416782063</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1982
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416782071|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_23'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416782071&1%2C1%2C/indexsort=-">4416782071</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1982
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416782160|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_24'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416782160&1%2C1%2C/indexsort=-">4416782160</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1982
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416782284|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_25'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416782284&1%2C1%2C/indexsort=-">4416782284</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1982
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416783051|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_26'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416783051&1%2C1%2C/indexsort=-">4416783051</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1983
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416783183|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_27'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416783183&1%2C1%2C/indexsort=-">4416783183</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1983
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416783248|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_28'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416783248&1%2C1%2C/indexsort=-">4416783248</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1983
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416784074|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_29'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416784074&1%2C1%2C/indexsort=-">4416784074</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1984
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416784252|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_30'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416784252&1%2C1%2C/indexsort=-">4416784252</a>  : Wolf, Henry&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1984
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416785046|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_31'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416785046&1%2C1%2C/indexsort=-">4416785046</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1985
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416785070|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_32'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416785070&1%2C1%2C/indexsort=-">4416785070</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1985
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416786174|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_33'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416786174&1%2C1%2C/indexsort=-">4416786174</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+c1986
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416786514|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_34'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416786514&1%2C1%2C/indexsort=-">4416786514</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1986
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i441678712xpbk|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_35'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i441678712xpbk&1%2C1%2C/indexsort=-">441678712xpbk</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1986
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416790430|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_36'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416790430&1%2C1%2C/indexsort=-">4416790430</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1990
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416797117|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_37'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416797117&1%2C1%2C/indexsort=-">4416797117</a>  : Go, Seigen,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1997
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4416895062|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_38'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4416895062&1%2C1%2C/indexsort=-">4416895062</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1995
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i4419822662|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_39'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i4419822662&1%2C1%2C/indexsort=-">4419822662</a>  : Scharwenka, Xaver,&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+p1995
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i442010486|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_40'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i442010486&1%2C1%2C/indexsort=-">442010486</a>  : Brickell, F&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1970
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i442034113|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_41'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i442034113&1%2C1%2C/indexsort=-">442034113</a> &nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1969
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i442051689|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_42'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i442051689&1%2C1%2C/indexsort=-">442051689</a>  : Maunder, C. R. F.&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1970
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i442069138|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_43'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i442069138&1%2C1%2C/indexsort=-">442069138</a>  : Richards, C. J.&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1969
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i442070489|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_44'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i442070489&1%2C1%2C/indexsort=-">442070489</a>  : Rossotti, Hazel.&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1969
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i442078765|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_45'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i442078765&1%2C1%2C/indexsort=-">442078765</a>  : Spain, Barry&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1970
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr  class="browseEntry">
+
+<td align="center" rowspan="1" class="browseEntryMark">
+<input type="checkbox" 
+name="savegroup" value="i442091672|1">
+</td>
+<td class="browseEntryData">
+<a name='anchor_46'></a> <a href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CB/frameset&FF=i442091672&1%2C1%2C/indexsort=-">442091672</a>  : Waldron, R. A.&nbsp;
+
+</td>
+<td align="left" valign="top" rowspan="1" class="browseEntryYear">
+1970
+</td>
+<td align="right" class="browseEntryEntries">
+1
+</td>
+
+</tr>
+<tr align="CENTER" valign="MIDDLE">
+<td colspan="4" class="browseSaveJump">
+<a href="#" onclick="process_save(0);" style="text-decoration:none">
+<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add Marked to Bag</span></span></a>
+<span name='save_page_btn2' id='save_page_btn2' style='visibility: visible' ><a href="#" onclick="process_save(1);" style="text-decoration:none">
+<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add All On Page</span></span></a>
+</span>
+<span name='mylist_btn2' id='mylist_btn2' style='visibility: visible' ><a href="#" onclick="save_to_mylist();">
+<span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add Marked to My Lists</span></span></a>
+</span>
+</form>
+</td></tr>
+
+
+</td>
+</tr>
+</table>
+<!-- END BROWSELIST/BRIEFCIT AREA -->
+</td>
+<!-- END BROWSE SCREEN LEFT CELL -->
+
+</tr>
+
+<!-- BEGIN BOTTOM BROWSE PAGER -->
+<tr  class="browsePager"><td align="center"  class="browsePager" colspan="4">
+<!-- begin unbounded page widgit -->
+Result Page&nbsp;&nbsp;&nbsp;<a href="/search~S0?/i44009635/i44009635/-53,0,0,B/browse">Prev</a>
+<a href="/search~S0?/i44009635/i44009635/47,0,0,B/browse">Next</a>
+<!-- end unbounded page widgit -->
+</td>
+</tr>
+<!-- END BOTTOM BROWSE PAGER -->
+</table>
+<!-- END BROWSE SCREEN TABLE -->
+<div align="center" class="navigationRow">
+<form>
+<a onclick="setRequestEventCookie()" href="/search~S0?/i44009635/i44009635/-3%2C0%2C0%2CE/2browse/indexsort=-"><span class="button"><img src="/screens/ico_browse_ext.gif" alt=""><span class="buttonText">Extended Display</span></span></a>
+<a href="/search~S0?/i44009635/i44009635/1,0,0,B/limit:relimit"><span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Limit/Sort Search</span></span></a>
+<select name=HISTORY onChange="onSelectChange(this, '~S0')"><option value="">(Search History)</option>
+<OPTION VALUE="i44009635">ISBN/ISSN: 44009635
+<OPTION VALUE="i044009635">ISBN/ISSN: 044009635
+<OPTION VALUE="i0440096359">ISBN/ISSN: 0440096359
+<OPTION VALUE="i0201014734">ISBN/ISSN: 0201014734
+<OPTION VALUE="i0809426781">ISBN/ISSN: 0809426781
+<OPTION VALUE="i080942679X">ISBN/ISSN: 080942679X
+<option value="+/search~S0/i?44009635&clear_history">(Clear Search History)</option>
+<option value="+/">(End Search Session)</option>
+</select>
+</form>
+</div>
+
+
+<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: Sept 2009 -->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<!-- end botlogo.html file -->
+
+</body>
+</html>

@@ -1,0 +1,643 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
+<head>
+<title>Connect NY                                                                    </title>
+<base target="_self"/>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+<script type="text/JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1" ><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
+</head>
+<body bgcolor="#FFFFFF" >
+<!-- begin toplogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Oct 2010 -->
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
+
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div class="topLogo">
+
+<div class="topLinks">
+<ul id="topLinksList">
+<!--<li><a href="/patroninfo" tabindex="120">Login</a></li>-->
+<li><a href="/help" tabindex="115">Help</a></li>
+<!--<li><a href="#" onClick="window.print();" tabindex="110"><span class="buttonTopLinks"><img src="/screens/ico_printer.gif" alt=""><span class="buttonTopLinksText">Print</span></span></a></li>-->
+<li><a href="/search/" tabindex="105">New Search</a></li>
+</ul>
+</div>
+
+<div class="topLogoSmall">
+<a href="/" tabindex="10"><img src="/screens/CNYlogowithtext.gif" alt="Catalog Home Page" style='height:175px; width:450px;'></a>
+</div>
+
+</div><!--topLogo-->
+
+
+<div class="topMyLibrary">
+<div id="topMyLibraryHeader"><h1>My Library</h1></div>
+
+<ul id="toplogoMoreNav">
+<!-- Toplogo alt links. -->
+<!--<li><a href="/acquire">Suggest a purchase</a></li>
+<li><a href="/suggest">Leave Comments</a></li>
+-->
+
+<!-- Dropdown menus -->
+	<li id="first">
+		<div><a href="http://encore.connectny.info/iii/encore/" target="_blank">Search Encore</a></div>
+		<!--<ul>
+            <li><a href="/patroninfo">My Account</a></li>
+            <!--<li><a href="/selfreg">Create an account</a></li> 
+            <li><a href="/libinfo">About the library</a></li>
+            <li><a href="/acquire">Suggest a purchase</a></li>
+            <li><a href="/suggest">Comments</a></li>
+		</ul>-->
+	</li>
+
+	<li>
+		<div><a href="/help">Help Topics</a></div>
+		<ul>
+			<li><a href="/help#searching">Searching</a></li>
+			<li><a href="/help#searchtips">Advanced Keyword Search Tips</a></li>
+			<li><a href="/help#prefsearch">Saving your searches</a></li>
+			<li><a href="/help#renewals">Renewals</a></li>
+		</ul>
+	</li>
+
+	<li id="last">
+		<div><a href="http://connectny.org/" target="_blank">ConnectNY</a></div>
+		<ul>
+           <!-- <li><a href="<encore IP/iii/encore>">Search Encore</a></li>
+            <li><a href="/iii/calendar/month">Program Calendar</a></li>
+            <li><a href="/ftlist">Featured Lists</a></li>
+            <li><a href="/rpro">Research Pro</a></li>
+            <li><a href="/search/y">Find e-resources</a></li>
+            <li><a href="/illb">Interlibrary Loan</a></li>
+		</ul>
+	</li> -->
+<!-- End dropdown menus -->    
+    
+</ul>
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+//Enable optional dropdown menu for additional navigation options.
+if (document.all&&document.getElementById) {
+	navRoot = document.getElementById("toplogoMoreNav");
+	for (i=0; i<navRoot.childNodes.length; i++) {
+		node = navRoot.childNodes[i];
+		if (node.nodeName=="LI") {
+			node.onmouseover=function() {
+				this.className+=" over";
+			}
+			node.onmouseout=function() {
+				this.className=this.className.replace(" over", "");
+			}
+		}
+	}
+}
+
+//--><!]]></script>
+
+</div><!--myLibrary-->
+<div class="topNavClear"></div>
+
+<div class="searchNav">
+<script language="JavaScript"> 
+<!--
+function GotoURL() { 
+//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
+window.location.assign(document.getElementById("specializedSearch").value);
+return false;
+} 
+// -->
+</script>
+<div id="searchNavMenu">
+<select name="specializedSearch" id="specializedSearch" onchange="GotoURL ();">
+<option selected="selected" value=" ">(More Searches)</option>
+<option value="/search/X">Advanced Keyword</option>
+<option value="/search/t">Title</option>
+<option value="/search/a">Author</option>
+<option value="/search/d">Subject</option>
+<option value="/search/h">Form/Genre</option>
+<option value="/search/l">LC Call Number</option>
+<option value="/search/c">Dewey Call Number</option>
+<option value="/search/g">Government Document Number</option>
+<option value="/search/i">ISSN/ISBN</option>
+<option value="/search/j">Music/Report Number</option>
+<option value="/search/o">OCLC Record Number</option>
+<!--<option value="/search/q">Author and Title</option>
+<option value="/search/p">Instructor</option>
+<option value="/search/r">Course</option> -->
+</select>
+<input type="image" src="/screens/ico_go.gif" class="searchNavBut" value="Go" onclick="GotoURL();" >
+</div>
+
+</div><!--searchNav-->
+<div class="clear"></div>
+<div class="pageContent"><!-- content container -->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
+
+
+<script type="text/javascript" src="//books.google.com/books/previewlib.js"></script>
+
+<div id="bibDisplayBody">
+<div class="navigationRowRecord">
+
+<a href="/search~S0?/i080942679X/i080942679x/1,1,1,B/?save_func=save_to_mylist&save=b12778639&returnurl=/search~S0?/i080942679X/i080942679x/1%2C1%2C1%2CB/frameset&FF=i080942679x&1%2C1%2C"><span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add to My Lists</span></span></a>
+<a href="/search~S0?/i080942679X/i080942679x/1,1,1,B/frameset&FF=i080942679x&1,1,?save=b12778639"><span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add to Bag</span></span></a>
+<a onclick="setRequestEventCookie()" href="/search~S0?/i080942679X/i080942679x/1%2C1%2C1%2CB/marc&FF=i080942679x&1%2C1%2C"><span class="button"><img src="/screens/ico_marc.gif" alt=""><span class="buttonText">MARC Display</span></span></a>
+<p><font size=+2 color="red"></font><p></div>
+<div id="bibDisplayContent">
+<div class="bibSearch">
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+var savedScope;
+var savedTag;
+var savedSearch;
+var sortButtonText = null;
+var savedExactSearch = null;
+var sortButtonEvent = null;
+var sortExactBrowseURL = null;
+var sortTypes = new Array();
+var sortLabels = new Array();
+sortTypes[0] = "t";
+sortLabels[0] = "Title";
+sortTypes[1] = "a";
+sortLabels[1] = "Author";
+sortTypes[2] = "c";
+sortLabels[2] = "Year";
+sortTypes[3] = "r";
+sortLabels[3] = "Reverse Year";
+sortTypes[4] = "n";
+sortLabels[4] = "Call Number";
+sortTypes[5] = "m";
+sortLabels[5] = "Material Type";
+sortLabels[6] = "System Sorted";
+sortTypes[6] = "-";
+var sortSelectedValue = "6";
+var nonSortTags = "XYZprWw"
+// Unhide the JS -->
+</script>
+<form name="searchtool" target="_self" action="/search~S0/" method='GET'>
+      <label for="searchtype" style="display:none;">SearchType</label> <select name="searchtype" id="searchtype" onChange="initSort()">
+        <option value="X"> KEYWORD</option>
+        <option value="t"> TITLE</option>
+        <option value="a"> AUTHOR</option>
+        <option value="d"> LC SUBJECT</option>
+        <option value="h"> FORM/GENRE</option>
+        <option value="l"> LC CALL NO</option>
+        <option value="c"> CALL NO</option>
+        <option value="g"> GOVT DOC NO</option>
+        <option value="i" selected="selected"> ISBN/ISSN</option>
+        <option value="o"> OCLC NO</option>
+        <option value="j"> MUSIC/REPORT NO</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" onchange='return searchtoolSubmitAction()'maxlength="75" value="080942679X" />
+      &nbsp;
+
+<span id="sort_cell">
+</span>
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+initSort();
+// Unhide the JS -->
+</script>
+      <input type="hidden" name="SORT" value="D" /><input type="hidden" name="extended" value="0" />      <input type="submit" name="SUBMIT" value="Search" onclick='return searchtoolSubmitAction();' />
+<div>
+      <input type="checkbox" name="availlim" value="1"  /> <span class="availLimMessage">Limit search to available items</span><br/>
+</div>
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value="i080942679X" />
+</div>
+</form>
+<div class="bibSearchHistory">
+<select name=HISTORY onChange="onSelectChange(this, '~S0')"><option value="">(Search History)</option>
+<OPTION VALUE="i080942679X">ISBN/ISSN: 080942679X
+<option value="+/search~S0/i080942679X/i080942679x/1,1,1,B/frameset&FF=i080942679x&1,1,&clear_history">(Clear Search History)</option>
+<option value="+/">(End Search Session)</option>
+</select>
+<noscript>
+<h2>Search history function requires JavaScript.</h2>
+</noscript>
+</div>
+</div><!-- bibSearch -->
+
+<div class="bibPager">
+
+
+<a onclick="setRequestEventCookie()" href="/search~S0?/i080942679X/i080942679x/1%2C1%2C1%2CB/frameset&FF=i0809426781libbdg&1%2C1%2C"><span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Previous Record</span></span></a>
+<a onclick="setRequestEventCookie()" href="/search~S0?/i080942679X/i080942679x/1%2C1%2C1%2CB/frameset&FF=i080942682xlibbdg&1%2C1%2C"><span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span><img src="/screens/ico_next.gif" alt=""></span></a>
+</div>
+
+<div class="bibClear"></div>
+
+<div class="bibResourceSidebar">
+<!--Optional INNReach resources.-->
+</div>
+<div id='googledivold'>
+  
+</div>
+
+<div id="google" style="font-size: 9px;">
+<span class="book-title" align="left">
+</span>
+</div>
+<br />
+<br />
+<div class="bibPager" align="center">
+
+
+<a onclick="setRequestEventCookie()" href="/search~S0?/i080942679X/i080942679x/1%2C1%2C1%2CB/frameset&FF=i0809426781libbdg&1%2C1%2C"><span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Previous Record</span></span></a>
+<a onclick="setRequestEventCookie()" href="/search~S0?/i080942679X/i080942679x/1%2C1%2C1%2CB/frameset&FF=i080942682xlibbdg&1%2C1%2C"><span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span><img src="/screens/ico_next.gif" alt=""></span></a>
+</div>
+<br />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript">
+//$( "div:contains('978')" ).css( "text-decoration", "underline" );
+var foundin = $('div:contains("978")');
+
+var position = document.documentElement.innerHTML.indexOf('Library');
+x = document.getElementsByClassName("bibDisplayContentMorezzz");
+xlen = x.length;
+
+//avar = document.getElementById("holder").innerHTML;
+
+function onDelay()
+{
+avar = document.getElementById("holder").innerHTML;
+tloc = avar.indexOf("978");
+//alert(tloc);
+tvar = avar.substring(tloc,tloc+13);
+found_isbn = tvar;
+if (tloc != -1)
+{
+  xvar = "";
+  xvar = xvar + "Google Books: <BR>";
+  xvar = xvar + "<a href='https://books.google.com/books?vid=ISBN"+found_isbn+"' target='_blank'>";
+  xvar = xvar + "https://books.google.com/books?vid=ISBN"+found_isbn;
+  xvar = xvar + "</a>";
+  //xvar = xvar + "<scr";
+  //xvar = xvar + "ipt language=javascript>";
+  //xvar = xvar + "GBS_insertEmbeddedViewer('ISBN:"+found_isbn+"',600,500);";
+  //xvar = xvar + "</scr";
+  //xvar = xvar + "ipt>";
+xvar = xvar + "<scr";
+xvar = xvar + "ipt>GBS_insertPreviewButtonPopup('ISBN:0738531367');";
+xvar = xvar + "</scr";
+xvar = xvar + "ipt>";
+
+//GBS_insertPreviewButtonPopup('ISBN:0738531367');
+
+//alert(xvar);
+  document.getElementById("googlediv").innerHTML = xvar;
+//gvar = "ISBN:" + found_isbn;
+//GBS_insertEmbeddedViewer(gvar,600,500);
+
+
+}
+
+//checkGoogle();
+//alert(tvar);
+
+//alert(avar);
+}
+
+setTimeout(function(){onDelay(); }, 1000);
+
+
+for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "red";
+   alert(i);
+}
+//alert(x[0].innerHTML);
+//alert(position);
+//avar = 
+//alert(foundin.value);
+</script>
+<script>
+//try 
+//{
+  var isbn = ''; // This is all borrowed from the sms text code -- oclc will go here
+  var isbntemp = '';
+  var f = document.getElementById('bibDetail');
+var markup = document.documentElement.innerHTML;
+tloc = markup.indexOf("ISBN/ISSN");
+tloc2 = markup.indexOf("978",tloc);
+tvar = markup.substring(12649,12749);
+//alert(markup);
+//alert(tloc);
+
+//alert(markup);
+//alert(f);
+var f2 = document.getElementsByClassName("bibInfoData");
+//alert(f2.length);
+/*
+  try 
+	{ // we use try/catch blocks to hide errors
+    var tr = document.getElementsByTagName('tr'); // we have to iterate through every TR otherwise
+    for(i = 0; i < tr.length; i++) 
+	  { // for every TR in the document
+      var x=tr[i].getElementsByTagName('td'); // get all of the Columns
+      if (x.length == 2 && x[0].innerHTML == "ISBN/ISSN") 
+		  { // if the row has 2 columns and the first one has the text of ISBN/ISSN
+        isbn = x[1].innerHTML.replace(/[^0-9xX]/ig,""); // clean up isbn
+        document.write(isbn);
+      }
+		}
+  } catch (e) {}
+ } catch (e) {}
+*/
+</script>
+
+
+<script>
+function checkGoogle()
+{
+   // Construct URL along with required ISBNs (using code from Google sample - isbns = OCLC)
+  var isbns = '';
+  if (isbn) {
+  var isbns = [isbn];
+  }
+  //alert(isbn);
+  // Note: server name should be replaced with prod server.
+  //var api_url ="http://books.google.com/books?jscmd=viewapi&bibkeys=isbn:" + isbns.join(",");
+  var api_url ="http://books.google.com/books?jscmd=viewapi&bibkeys=isbn:" + found_isbn;
+  //var api_url ="<a href='https://books.google.com/books?vid=ISBN9780822358954'     target=_blank>https://books.google.com/books?vid=ISBN</a>";
+
+// Talk to the server synchronously and get _GBSBookInfo object
+document.write(unescape("%3Cscript src=" + api_url + " type='text/javascript'%3E%3C/script%3E"));
+document.write(api_url);
+//document.write(isbns);
+
+// Process response from Google booksearch
+for (i in isbns) {
+var element = google;
+isbn_label = "isbn:" + isbns[i];
+
+var bookInfo = _GBSBookInfo[isbn_label];
+// Check whether server returned any data
+if (bookInfo) {
+//document.write("google has book info!!");
+if (!element) { alert (isbn); }
+element.href = bookInfo.preview_url;
+//document.write(element.href);
+// include the links and images
+if (bookInfo.preview == "full") {
+element.innerHTML ="<p class=\"book-title\" align=\"left\"><a target=\"_new\" href=\"" + bookInfo.preview_url + "\"><img src=\"http://connectny.info:2082/screens/google-full.jpg\" alt=\"Full Text at Google\" border=\"0\"></a><br />";
+}
+
+if (bookInfo.preview == "partial") {
+element.innerHTML ="<p class=\"book-title\" align=\"left\"><a target=\"_new\" href=\"" + bookInfo.preview_url + "\"><img src=\"http://connectny.info:2082/screens/google-limited.jpg\" alt=\"Limited Preview at Google\" border=\"0\"></a><br />";
+}
+
+}
+}
+}
+</script>
+
+
+<div class="bibDisplayJacket">
+<div class="bibMedia">
+&nbsp;</div>
+</div>
+
+<div class="bibDisplayContentMain">
+
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=a -->
+<td valign="top" width="20%"  class="bibInfoLabel">Author</td>
+<td class="bibInfoData">
+<a href="/search~S0?/aWhipple%2C+A.+B.+C.+%28Addison+Beecher+Colvin%29%2C+1918-/awhipple+a+b+c+addison+beecher+colvin+1918/-3,-1,0,B/browse">Whipple, A. B. C. (Addison Beecher Colvin), 1918-</a>
+
+</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+
+<h1 class="bibDisplayTitle">
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=t -->
+<td valign="top" width="20%"  class="bibInfoLabel">Title</td>
+<td class="bibInfoData">
+<strong>The clipper ships / by A. B. C. Whipple and the editors of Time-Life Books.</strong></td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+</h1>
+
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=p -->
+<td valign="top" width="20%"  class="bibInfoLabel">Imprint</td>
+<td class="bibInfoData">
+Alexandria, Va. : Time-Life Books, c1980.</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+
+
+<div class="testlinkeddocs">
+</div>
+<div class="bibDisplayUrls">
+</div>
+
+<tr><td>
+<div align="center"><br /><a id="__requestItem" href="/search~S0?/i080942679X/i080942679x/1%2C1%2C1%2CB/request&FF=i080942679x&1%2C1%2C"><span class="button"><img src="/screens/ico_checkmark.gif" alt=""><span class="buttonText">REQUEST THIS ITEM</span></span></a><br />
+<table width=100% BORDER=3 BGCOLOR=#DDEEFF><tr><th align="left" width="15%">Library</th><th align="left" width="15%">Shelving Location</th><th align="left" width="25%">Electronic Link</th><th align="left" width="25%">Call Number and Holdings</th><th align="left" width="20%">Request Status</th></tr>
+<tr class="holdings9lemo"><td><a name="9lemo"></a>Le Moyne</td>
+<td>Bookstacks:  Oversize</td>
+<td>&nbsp; </td>
+<td>VM19 .W54 </td>
+<td>AVAILABLE</td>
+</tr>
+<tr class="holdings9usmm"><td><a name="9usmm"></a>Merchant Marine Academy</td>
+<td>All levels - Non- fiction</td>
+<td>&nbsp; </td>
+<td>VM19 .W54 c. 3 </td>
+<td>AVAILABLE</td>
+</tr>
+<tr class="holdings9usmm"><td><a name="9usmm"></a>Merchant Marine Academy</td>
+<td>All levels - Non- fiction</td>
+<td>&nbsp; </td>
+<td>VM19 .W54 c. 1 </td>
+<td>AVAILABLE</td>
+</tr>
+<tr class="holdings9usmm"><td><a name="9usmm"></a>Merchant Marine Academy</td>
+<td>All levels - Non- fiction</td>
+<td>&nbsp; </td>
+<td>VM19 .W54 c. 4 </td>
+<td>AVAILABLE</td>
+</tr>
+<tr class="holdings9usmm"><td><a name="9usmm"></a>Merchant Marine Academy</td>
+<td>All levels - Non- fiction</td>
+<td>&nbsp; </td>
+<td>VM19 .W54 c. 2 </td>
+<td>AVAILABLE</td>
+</tr>
+<tr class="holdings9prat"><td><a name="9prat"></a>Pratt</td>
+<td>Brooklyn Stacks</td>
+<td>&nbsp; </td>
+<td>387.2 W573 </td>
+<td>AVAILABLE</td>
+</tr>
+<tr class="holdings9prat"><td><a name="9prat"></a>Pratt</td>
+<td>Brooklyn Stacks</td>
+<td>&nbsp; </td>
+<td>387.2 W573 c.2 </td>
+<td>AVAILABLE</td>
+</tr>
+<tr class="holdings9sien"><td><a name="9sien"></a>Siena</td>
+<td>LOWER LEVEL</td>
+<td>&nbsp; </td>
+<td>VM19 .W54   </td>
+<td>AVAILABLE</td>
+</tr>
+<tr class="holdings9usma"><td><a name="9usma"></a>USMA</td>
+<td>CIRCULATING BOOKS</td>
+<td>&nbsp; </td>
+<td>VM19 .W54 1980 </td>
+<td>DUE 05-15-18</td>
+</tr>
+</table>
+<!-- begin page widgit for 19 lines on 1 pages -->
+<!-- end page widgit for 19 lines on 1 pages -->
+<br /></div></td></tr>
+<div class="bibDisplayItems">
+<div class="bibDisplayItemsHeader"><h2>Copies</h2></div>
+<div class="bibDisplayItemsMain">
+</div>
+</div>
+
+<div id="holder">
+<div class="bibDisplayContentMore">
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=r -->
+<td valign="top" width="20%"  class="bibInfoLabel">Descript</td>
+<td class="bibInfoData">
+176 p. &#59; 30 cm.</td></tr>
+<tr><!-- next row for fieldtag=s -->
+<td valign="top" width="20%"  class="bibInfoLabel">Series</td>
+<td class="bibInfoData">
+<a href="/search~S0?/tThe+Seafarers/tthe+seafarers/-3,-1,0,B/browse">The Seafarers</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=s -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/tSeafarers./tseafarers/-3,-1,0,B/browse">Seafarers.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">Bibliog.</td>
+<td class="bibInfoData">
+Bibliography: p. 172.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">Note</td>
+<td class="bibInfoData">
+Includes index.</td></tr>
+<tr><!-- next row for fieldtag=d -->
+<td valign="top" width="20%"  class="bibInfoLabel">Subject</td>
+<td class="bibInfoData">
+<a href="/search~S0?/dClipper+ships./dclipper+ships/-3,-1,0,B/browse">Clipper ships.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td valign="top" width="20%"  class="bibInfoLabel">Alt Author</td>
+<td class="bibInfoData">
+<a href="/search~S0?/aTime-Life+Books./atime+life+books/-3,-1,0,B/browse">Time-Life Books.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=i -->
+<td valign="top" width="20%"  class="bibInfoLabel">ISBN/ISSN</td>
+<td class="bibInfoData">
+080942679X</td></tr>
+<tr><!-- next row for fieldtag=i -->
+<td></td>
+<td class="bibInfoData">
+0809426781 (lib. bdg.)</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+
+<div id="googlediv">
+</div>
+
+<div id="deletediv">
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="bibDisplayContentMore bibDisplayReviews">
+<div class="bibDisplayPermLink actionButtonArea">
+<a href="/record=b12778639~S0"><span class="button"><img src="/screens/ico_bookmark.gif" alt=""><span class="buttonText">Permanent Link</span></span></a></div>
+
+</div>
+
+</div>
+
+
+</div><!-- close bibDisplayContent -->
+<div class="clear"></div>
+</div><!-- close bibDisplayBody -->
+<br />
+
+<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: Sept 2009 -->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<!-- end botlogo.html file -->
+
+</body>
+</html>
+<!--this is customized <screens/bib_display.html>-->

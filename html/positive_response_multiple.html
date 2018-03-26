@@ -1,0 +1,533 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
+<head>
+<title>Connect NY                                                                    </title>
+<base target="_self"/>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+<script type="text/JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1" ><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
+</head>
+<body bgcolor="#FFFFFF" >
+<!-- begin toplogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Oct 2010 -->
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
+
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div class="topLogo">
+
+<div class="topLinks">
+<ul id="topLinksList">
+<!--<li><a href="/patroninfo" tabindex="120">Login</a></li>-->
+<li><a href="/help" tabindex="115">Help</a></li>
+<!--<li><a href="#" onClick="window.print();" tabindex="110"><span class="buttonTopLinks"><img src="/screens/ico_printer.gif" alt=""><span class="buttonTopLinksText">Print</span></span></a></li>-->
+<li><a href="/search/" tabindex="105">New Search</a></li>
+</ul>
+</div>
+
+<div class="topLogoSmall">
+<a href="/" tabindex="10"><img src="/screens/CNYlogowithtext.gif" alt="Catalog Home Page" style='height:175px; width:450px;'></a>
+</div>
+
+</div><!--topLogo-->
+
+
+<div class="topMyLibrary">
+<div id="topMyLibraryHeader"><h1>My Library</h1></div>
+
+<ul id="toplogoMoreNav">
+<!-- Toplogo alt links. -->
+<!--<li><a href="/acquire">Suggest a purchase</a></li>
+<li><a href="/suggest">Leave Comments</a></li>
+-->
+
+<!-- Dropdown menus -->
+	<li id="first">
+		<div><a href="http://encore.connectny.info/iii/encore/" target="_blank">Search Encore</a></div>
+		<!--<ul>
+            <li><a href="/patroninfo">My Account</a></li>
+            <!--<li><a href="/selfreg">Create an account</a></li> 
+            <li><a href="/libinfo">About the library</a></li>
+            <li><a href="/acquire">Suggest a purchase</a></li>
+            <li><a href="/suggest">Comments</a></li>
+		</ul>-->
+	</li>
+
+	<li>
+		<div><a href="/help">Help Topics</a></div>
+		<ul>
+			<li><a href="/help#searching">Searching</a></li>
+			<li><a href="/help#searchtips">Advanced Keyword Search Tips</a></li>
+			<li><a href="/help#prefsearch">Saving your searches</a></li>
+			<li><a href="/help#renewals">Renewals</a></li>
+		</ul>
+	</li>
+
+	<li id="last">
+		<div><a href="http://connectny.org/" target="_blank">ConnectNY</a></div>
+		<ul>
+           <!-- <li><a href="<encore IP/iii/encore>">Search Encore</a></li>
+            <li><a href="/iii/calendar/month">Program Calendar</a></li>
+            <li><a href="/ftlist">Featured Lists</a></li>
+            <li><a href="/rpro">Research Pro</a></li>
+            <li><a href="/search/y">Find e-resources</a></li>
+            <li><a href="/illb">Interlibrary Loan</a></li>
+		</ul>
+	</li> -->
+<!-- End dropdown menus -->    
+    
+</ul>
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+//Enable optional dropdown menu for additional navigation options.
+if (document.all&&document.getElementById) {
+	navRoot = document.getElementById("toplogoMoreNav");
+	for (i=0; i<navRoot.childNodes.length; i++) {
+		node = navRoot.childNodes[i];
+		if (node.nodeName=="LI") {
+			node.onmouseover=function() {
+				this.className+=" over";
+			}
+			node.onmouseout=function() {
+				this.className=this.className.replace(" over", "");
+			}
+		}
+	}
+}
+
+//--><!]]></script>
+
+</div><!--myLibrary-->
+<div class="topNavClear"></div>
+
+<div class="searchNav">
+<script language="JavaScript"> 
+<!--
+function GotoURL() { 
+//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
+window.location.assign(document.getElementById("specializedSearch").value);
+return false;
+} 
+// -->
+</script>
+<div id="searchNavMenu">
+<select name="specializedSearch" id="specializedSearch" onchange="GotoURL ();">
+<option selected="selected" value=" ">(More Searches)</option>
+<option value="/search/X">Advanced Keyword</option>
+<option value="/search/t">Title</option>
+<option value="/search/a">Author</option>
+<option value="/search/d">Subject</option>
+<option value="/search/h">Form/Genre</option>
+<option value="/search/l">LC Call Number</option>
+<option value="/search/c">Dewey Call Number</option>
+<option value="/search/g">Government Document Number</option>
+<option value="/search/i">ISSN/ISBN</option>
+<option value="/search/j">Music/Report Number</option>
+<option value="/search/o">OCLC Record Number</option>
+<!--<option value="/search/q">Author and Title</option>
+<option value="/search/p">Instructor</option>
+<option value="/search/r">Course</option> -->
+</select>
+<input type="image" src="/screens/ico_go.gif" class="searchNavBut" value="Go" onclick="GotoURL();" >
+</div>
+
+</div><!--searchNav-->
+<div class="clear"></div>
+<div class="pageContent"><!-- content container -->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
+
+<div align="center" class="navigationRow">
+<form>
+<a onclick="setRequestEventCookie()" href="/search~S0?/tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CB/exact&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&1%2C2%2C/limit?"><span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Limit/Sort Search</span></span></a>
+<select name=HISTORY onChange="onSelectChange(this, '~S0')"><option value="">(Search History)</option>
+<OPTION VALUE="tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles">TITLE: Women of crisis II : lives of work and dreams / Robert Coles and Jane Hallowell Coles
+<OPTION VALUE="tThe+Sears+Roebuck+catalogues+of+the+thirties+%3A+selected+pages+from+the+entire+decade">TITLE: The Sears Roebuck catalogues of the thirties : selected pages from the entire decade
+<OPTION VALUE="tNew+York--world+city+%3A+report+of+the+Twentieth+Century+Fund+Task+Force+on+the+Future+of+New+York+City+%3A+background+paper+%2F+by+Masha+Sinnreich">TITLE: New York--world city : report of the Twentieth Century Fund Task Force on the Future of New York City : background paper / by Masha Sinnreich
+<OPTION VALUE="tHistory+of+the+idea+of+progress+%2F+Robert+Nisbet.">TITLE: History of the idea of progress / Robert Nisbet.
+<OPTION VALUE="i44009635">ISBN/ISSN: 44009635
+<OPTION VALUE="i044009635">ISBN/ISSN: 044009635
+<OPTION VALUE="i0440096359">ISBN/ISSN: 0440096359
+<OPTION VALUE="i0201014734">ISBN/ISSN: 0201014734
+<OPTION VALUE="i0809426781">ISBN/ISSN: 0809426781
+<OPTION VALUE="i080942679X">ISBN/ISSN: 080942679X
+<option value="+/search~S0/t?Women+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles&clear_history">(Clear Search History)</option>
+<option value="+/">(End Search Session)</option>
+</select>
+<noscript>
+<h2>Search history function requires JavaScript.</h2>
+</noscript>
+</form>
+</div>
+
+<!-- BEGIN BROWSE SCREEN TABLE -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="browseScreen">
+<!-- BEGIN SEARCH WIDGET -->
+<div align="center">
+<tr align="center" valign="middle">
+<td valign="middle" colspan="2">
+<div  class="browseSearchtool">
+<script type="text/JavaScript">
+<!-- Hide the JS
+var savedScope;
+var savedTag;
+var savedSearch;
+var savedExactSearch = null;
+var sortButtonText ="Sort";
+var sortButtonEvent = "sortExactBrowse";
+var sortExactBrowseURL = "/search~S0?/tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CB/exact&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&1%2C-1%2C";
+var sortTypes = new Array();
+var sortLabels = new Array();
+sortTypes[0] = "t";
+sortLabels[0] = "Title";
+sortTypes[1] = "a";
+sortLabels[1] = "Author";
+sortTypes[2] = "c";
+sortLabels[2] = "Year";
+sortTypes[3] = "r";
+sortLabels[3] = "Reverse Year";
+sortTypes[4] = "n";
+sortLabels[4] = "Call Number";
+sortTypes[5] = "m";
+sortLabels[5] = "Material Type";
+sortLabels[6] = "System Sorted";
+sortTypes[6] = "-";
+var sortSelectedValue = "6";
+var nonSortTags = "XYZprWw"
+// Unhide the JS -->
+</script>
+<form name="searchtool" target="_self" action="/search~S0/" method='GET'>
+      <label for="searchtype" style="display:none;">SearchType</label> <select name="searchtype" id="searchtype" onChange="initSort()">
+        <option value="X"> KEYWORD</option>
+        <option value="t" selected="selected"> TITLE</option>
+        <option value="a"> AUTHOR</option>
+        <option value="d"> LC SUBJECT</option>
+        <option value="h"> FORM/GENRE</option>
+        <option value="l"> LC CALL NO</option>
+        <option value="c"> CALL NO</option>
+        <option value="g"> GOVT DOC NO</option>
+        <option value="i"> ISBN/ISSN</option>
+        <option value="o"> OCLC NO</option>
+        <option value="j"> MUSIC/REPORT NO</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" onchange='return searchtoolSubmitAction()'maxlength="75" value="Women of crisis II : lives of work and dreams / Robert Coles and Jane Hallowell Coles" />
+      &nbsp;
+
+<span id="sort_cell">
+</span>
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+initSort();
+// Unhide the JS -->
+</script>
+      <input type="hidden" name="SORT" value="D" /><input type="hidden" name="extended" value="0" />      <input type="submit" name="SUBMIT" value="Search" onclick='return searchtoolSubmitAction();' />
+<div>
+      <input type="checkbox" name="availlim" value="1"  /> <span class="availLimMessage">Limit search to available items</span><br/>
+</div>
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value="tWomen of crisis II : lives of work and dreams / Robert Coles and Jane Hallowell Coles" />
+</div>
+</form>
+<div></div></div>
+
+</td>
+</tr>
+</div>
+<!-- END SEARCH WIDGET -->
+
+<!-- BEGIN BROWSE PAGER -->
+<!-- END BROWSE PAGER -->
+
+<!-- BEGIN BROWSE SCREEN LEFT CELL: BROWSELIST/BRIEFCIT AREA -->
+<tr><td valign="top">
+<table border="0" cellpadding="0" width="100%">
+<tr align="CENTER" valign="MIDDLE">
+<td colspan="4" class="browseSaveJump">
+<form method="POST" action="/search~S0?/tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CB/exact&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&1%2C2%2C" name="export_form" id="export_form" >
+<input type="hidden" name="jumpref" value="twomen+of+crisis+ii+lives+of+work+and+dreams">
+<input type="hidden" id="save_func" name="save_func" value=""/>
+<a href="#" onclick="process_save(0);" style="text-decoration:none">
+<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add Marked to Bag</span></span></a>
+<span name='save_page_btn1' id='save_page_btn1' style='visibility: visible' ><a href="#" onclick="process_save(1);" style="text-decoration:none">
+<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add All On Page</span></span></a>
+</span>
+<span name='mylist_btn1' id='mylist_btn1' style='visibility: visible' ><a href="#" onclick="save_to_mylist();">
+<span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add Marked to My Lists</span></span></a>
+</span>
+</td></tr>
+
+
+</td>
+</tr>
+<tr  class="browseHeader">
+<td align="center" class="browseHeaderData">
+TITLES (1-2 of 2)
+</td>
+</tr>
+<tr  class="browseSuperEntry">
+<td colspan="4">
+<strong>Women Of Crisis Ii Lives Of Work And Dreams</strong>
+</td>
+
+</tr>
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 15 Oct 2009 -->
+<tr>
+<td class="briefcitCell">
+
+<div class="briefcitRow">
+
+<div class="briefcitLeft">
+<div class="briefcitEntryNum">
+<a name='anchor_1'></a> 1</div>
+<div class="briefcitMark">
+<input type="checkbox" 
+name="save" value="b11036195" >
+</div>
+
+<div class="briefcitMedia">
+&nbsp;</div>
+
+</div>
+
+
+<div class="briefcitJacket">
+&nbsp;</div>
+
+
+<div class="briefcitDetail">
+
+<div class="briefcitDetailMain">
+
+<!--{nohitmsg}-->
+<h2 class="briefcitTitle">
+<a href="/search~S0?/tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CB/frameset&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&1%2C%2C2">Women of crisis II : lives of work and dreams</a></h2>
+<br >
+Coles, Robert<br >
+New York : Delacorte Press/S. Lawrence, c1980
+c1980
+<br>
+<div class="briefcitRatings">
+<h2>Rating:</h2>
+</div>
+
+<div class="briefcitRequest">
+<a onclick="setRequestEventCookie()" href="/search~S0?/tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CZ/requestexact~b11036195&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&1%2C%2C2"><img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Request</a></div>
+<span class="briefcitStatus">
+</span>
+
+<div class="briefcitActions">
+
+&nbsp;</div>
+</div>
+<div class="briefcitItemsHeader"><h2>Copies</h2></div>
+<div class="briefcitItemsMain">
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="briefcitClear"></div>
+
+</div>
+</td>
+</tr>
+<!--this is customized <screens/briefcit.html>-->
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 15 Oct 2009 -->
+<tr>
+<td class="briefcitCell">
+
+<div class="briefcitRow">
+
+<div class="briefcitLeft">
+<div class="briefcitEntryNum">
+<a name='anchor_2'></a> 2</div>
+<div class="briefcitMark">
+<input type="checkbox" 
+name="save" value="b13567871" >
+</div>
+
+<div class="briefcitMedia">
+&nbsp;</div>
+
+</div>
+
+
+<div class="briefcitJacket">
+&nbsp;</div>
+
+
+<div class="briefcitDetail">
+
+<div class="briefcitDetailMain">
+
+<!--{nohitmsg}-->
+<h2 class="briefcitTitle">
+<a href="/search~S0?/tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CB/frameset&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&2%2C%2C2">Women of crisis II : lives of work and dreams</a></h2>
+<br >
+Coles, Robert, 1929-<br >
+New York : Dell Pub. Co., [1980]
+1980
+<br>
+<div class="briefcitRatings">
+<h2>Rating:</h2>
+</div>
+
+<div class="briefcitRequest">
+<a onclick="setRequestEventCookie()" href="/search~S0?/tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CZ/requestexact~b13567871&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&2%2C%2C2"><img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Request</a></div>
+<span class="briefcitStatus">
+</span>
+
+<div class="briefcitActions">
+
+&nbsp;</div>
+</div>
+<div class="briefcitItemsHeader"><h2>Copies</h2></div>
+<div class="briefcitItemsMain">
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="briefcitClear"></div>
+
+</div>
+</td>
+</tr>
+<!--this is customized <screens/briefcit.html>-->
+<tr align="CENTER" valign="MIDDLE">
+<td colspan="4" class="browseSaveJump">
+<a href="#" onclick="process_save(0);" style="text-decoration:none">
+<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add Marked to Bag</span></span></a>
+<span name='save_page_btn2' id='save_page_btn2' style='visibility: visible' ><a href="#" onclick="process_save(1);" style="text-decoration:none">
+<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add All On Page</span></span></a>
+</span>
+</form>
+
+<form action="/search~S0/t?Women+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles" method="POST">
+<input type="HIDDEN" name="jumpref" value="tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CB/exact&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&1%2C2%2C">
+<script type="text/JavaScript">
+
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+obj.submit();
+}
+</script>
+<input type="hidden" id="iiiFormHandle_1"/>
+<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Locate in results</span></span></div></div></a>
+
+
+
+<script type="text/JavaScript">
+
+//getFormHandleForm() is in common.js
+var evtobj = getFormHandleForm(1);
+if (document.layers)
+    {
+    document.captureEvents(Event.KEYUP);
+    }
+document.onkeyup = function(evt)
+{
+if (!evt) evt = window.event;
+var keyCode;
+if (evt.which) keyCode = evt.which;
+else if (evt.keyCode) keyCode = evt.keyCode;
+var targ;
+if (evt.target) targ = evt.target;
+else if (evt.srcElement) targ = evt.srcElement;
+if (targ.nodeType == 3) //for Safari bug
+    targ = targ.parentNode;
+if (targ.form)
+    {
+    targ = targ.form;
+    //alert('targ='+targ+'  evtobj='+evtobj);
+    if (keyCode == 13 && targ == evtobj)
+        {
+        iiiDoSubmit_1();
+        }
+    }
+};
+
+</script>
+<input type="TEXT" name="jumpto" value="2" size="30" maxlength="75">
+</form>
+
+</td></tr>
+
+
+</td>
+</tr>
+</table>
+<!-- END BROWSELIST/BRIEFCIT AREA -->
+</td>
+<!-- END BROWSE SCREEN LEFT CELL -->
+
+</tr>
+
+<!-- BEGIN BOTTOM BROWSE PAGER -->
+<!-- END BOTTOM BROWSE PAGER -->
+</table>
+<!-- END BROWSE SCREEN TABLE -->
+<div align="center" class="navigationRow">
+<form>
+<a onclick="setRequestEventCookie()" href="/search~S0?/tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles/twomen+of+crisis+ii+lives+of+work+and+dreams/1%2C1%2C2%2CB/exact&FF=twomen+of+crisis+ii+lives+of+work+and+dreams&1%2C2%2C/limit?"><span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Limit/Sort Search</span></span></a>
+<select name=HISTORY onChange="onSelectChange(this, '~S0')"><option value="">(Search History)</option>
+<OPTION VALUE="tWomen+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles">TITLE: Women of crisis II : lives of work and dreams / Robert Coles and Jane Hallowell Coles
+<OPTION VALUE="tThe+Sears+Roebuck+catalogues+of+the+thirties+%3A+selected+pages+from+the+entire+decade">TITLE: The Sears Roebuck catalogues of the thirties : selected pages from the entire decade
+<OPTION VALUE="tNew+York--world+city+%3A+report+of+the+Twentieth+Century+Fund+Task+Force+on+the+Future+of+New+York+City+%3A+background+paper+%2F+by+Masha+Sinnreich">TITLE: New York--world city : report of the Twentieth Century Fund Task Force on the Future of New York City : background paper / by Masha Sinnreich
+<OPTION VALUE="tHistory+of+the+idea+of+progress+%2F+Robert+Nisbet.">TITLE: History of the idea of progress / Robert Nisbet.
+<OPTION VALUE="i44009635">ISBN/ISSN: 44009635
+<OPTION VALUE="i044009635">ISBN/ISSN: 044009635
+<OPTION VALUE="i0440096359">ISBN/ISSN: 0440096359
+<OPTION VALUE="i0201014734">ISBN/ISSN: 0201014734
+<OPTION VALUE="i0809426781">ISBN/ISSN: 0809426781
+<OPTION VALUE="i080942679X">ISBN/ISSN: 080942679X
+<option value="+/search~S0/t?Women+of+crisis+II+%3A+lives+of+work+and+dreams+%2F+Robert+Coles+and+Jane+Hallowell+Coles&clear_history">(Clear Search History)</option>
+<option value="+/">(End Search Session)</option>
+</select>
+</form>
+</div>
+
+
+<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: Sept 2009 -->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<!-- end botlogo.html file -->
+
+</body>
+</html>
