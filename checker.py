@@ -90,7 +90,7 @@ with open('NoCirc_test.csv', 'r+') as data:
                 marc_req = requests.get(CONNECTNY_URL, marc245_params)
                 # print(marc_req)
                 # print(marc_req.text)
-                print(marc_req.url)
+                # print(marc_req.url)
                 marc_soup = BeautifulSoup(marc_req.text, 'html.parser')
 
                 #CHECK FOR NEGATIVE RESULT
@@ -120,7 +120,7 @@ with open('NoCirc_test.csv', 'r+') as data:
 
                             #IF LENDERS OTHER THAN PRATT, ADD 'CNY': 'X' TO CSV
                             if len(library_name_list) > 0:
-                                print(library_name_list[0])
+                                # print(library_name_list[0])
                                 record['CNY'] = 'X'
                             elif len(library_name_list) == 0:
                                 record['CNY'] = 'ONLY PRATT'
