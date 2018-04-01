@@ -5,9 +5,9 @@ CONNECTNY_URL = 'https://www.connectny.info/search~S0/'
 isbd_grabber = re.compile('[0-9X]{10}')
 
 #OPEN LIST, READ CSV AS DICTIONARY W/ "~" DELIMITER
-with open('NoCirc_test.csv', 'r+') as data:
+with open('NoCirc.csv') as data:
     no_circ = csv.DictReader(data, delimiter="~")
-    with open('NoCirc_test_output.csv', 'w') as output:
+    with open('NoCirc_output.csv', 'w') as output:
         fieldnames = ['Record Number','Publication Info.','Call No.','Horizon checkouts','Old in-house uses','Checkout Date','Standard No.','Title','CNY']
         writer = csv.DictWriter(output, fieldnames=fieldnames)
         writer.writeheader()
@@ -24,7 +24,7 @@ with open('NoCirc_test.csv', 'r+') as data:
 
             marc245 = record['Title']
             # print(isbd)
-            # print(marc245)
+            print(marc245)
 
 ##BEGIN ISBD SEARCH
             for isbd in isbd_list:
@@ -69,10 +69,11 @@ with open('NoCirc_test.csv', 'r+') as data:
 
                                 #IF LENDERS OTHER THAN PRATT, ADD 'CNY': 'X' TO CSV
                                 if len(library_name_list) > 0:
-                                    # print(library_name_list[0])
+                                    print("Item available in: ", library_name_list, "\n")
                                     record['CNY'] = 'X'
                                 elif len(library_name_list) == 0:
                                     record['CNY'] = 'ONLY PRATT'
+                                    print("Item only available from Pratt.\n")
 
 
 
@@ -120,10 +121,11 @@ with open('NoCirc_test.csv', 'r+') as data:
 
                             #IF LENDERS OTHER THAN PRATT, ADD 'CNY': 'X' TO CSV
                             if len(library_name_list) > 0:
-                                # print(library_name_list[0])
+                                print("Item available in: ", library_name_list ,"\n")
                                 record['CNY'] = 'X'
                             elif len(library_name_list) == 0:
                                 record['CNY'] = 'ONLY PRATT'
+                                print("Item only available from Pratt. \n")
 
 
 
