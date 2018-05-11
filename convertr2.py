@@ -58,7 +58,7 @@ with open('noCirc_oclcNumber', 'r+') as data:
             # print(marc245)
 
             if oclc_number != "":
-                worldcat_request = requests.get(WORLDCAT_URL + oclc_number + "?location=" + pratt_location_number + "&wskey=IMSfhCySDrRdE4Q9KQYzBtHJNx5l6pbgEG3W4iJqBAV3NaBonGpWuw7dosUpzRbpK8GRKPzYDBJvnlka")
+                worldcat_request = requests.get(WORLDCAT_URL + oclc_number + "?location=" + pratt_location_number + WSKEY)
                 # print(worldcat_request.text)
                 if worldcat_request.status_code != 200:
                     print(worldcat_request.text)
